@@ -1,12 +1,19 @@
 package Program;
-import java.sql.Connection;
+import java.sql.*;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Gestor {
-
+	
+	
+	
+	
+	
 	public static void prueba() {
+	
+
 	String dbURL = "jdbc:sqlserver:SJOLTP214A\\SQLEXPRESS,144;Initial Catalog=DB_PROCESOS;Integrated Security=True" ;
 {
 	 
@@ -28,15 +35,18 @@ public class Gestor {
 		} catch (SQLException ex) {
 		    ex.printStackTrace();
 		}
-	
+}
 	
 	
 }
-	}
-	
-	
 	
 }
+
+	
+	
+	
+	
+
 
 
 
